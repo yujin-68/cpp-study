@@ -1,3 +1,5 @@
+// 예제 1-2: 자기소개 출력
+// 전공, 나이, 취미를 한 줄로 출력하는 프로그램
 #include <iostream>
 using namespace std;
 
