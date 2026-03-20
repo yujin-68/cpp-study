@@ -1,20 +1,20 @@
-//예제 6-1: adder()함수와 호출
-//두 개의 정수를 전달받아 합을 리턴하는 함수 adder()를 작성하시오. main()함수에서 adder()함수를 호출하여 결과를 출력하시오.
-
 #include <iostream>
 using namespace std;
 
-int adder(int a, int b) {
-    return a + b;
-}
-
 int main() {
-    int x, y;
-    cout << "두 정수를 입력하세요: ";
-    cin >> x >> y;
+	int i = 0;
+	cout << "새 암호를 입력하세요>>";
 
-    int result = adder(x, y);
-    cout << "두 수의 합은 " << result << "입니다." << endl;
+	char b1[11];
+	cin >> b1;
 
-    return 0;
+	cout << "새 암호 다시 한 번 입력하세요>>";
+
+	char b2[11];
+	cin >> b2;
+
+	if (b1[i] == b2[i]) cout << "같습니다";
+	else cout << "같지 않습니다";
+
+	return 0;
 }
